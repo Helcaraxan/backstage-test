@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-test
+  description: My test
+  annotations:
+    github.com/project-slug: Helcaraxan/backstage-test
+  tags:
+    - go
+spec:
+  type: library
+  lifecycle: experimental
+  owner: team-a
+
